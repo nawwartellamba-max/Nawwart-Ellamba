@@ -1,0 +1,84 @@
+# إعدادات لوحة التحكم لموقع نوّرت اللمبة (Pages CMS)
+media:
+  - name: files
+    label: الملفات
+    input: downloads
+    output: /downloads
+    rename: safe
+    categories: [document, image, compressed, audio, video]
+content:
+  - name: downloads
+    label: ملفات التحميل للدروس
+    type: file
+    path: downloads.json
+    format: json
+    list: true
+    fields:
+      - name: lesson
+        label: الدرس
+        type: select
+        required: true
+        options:
+          values:
+            - name: c1-1
+              label: "الفصل 1 - الدرس 1: لنبحث عن الكائنات الحية"
+            - name: c1-2
+              label: "الفصل 1 - الدرس 2: كيف نلاحظ"
+            - name: c1-3
+              label: "الفصل 1 - الدرس 3: ألوان وأشكال الكائنات الحية"
+            - name: c1-4
+              label: "الفصل 1 - الدرس 4: أماكن مختلفة، كائنات حية مختلفة"
+            - name: c1-5
+              label: "الفصل 1 - الدرس 5: كائنات الصحراء الحية"
+            - name: c2-1
+              label: "الفصل 2 - الدرس 1: البيض واليرقات"
+            - name: c2-2
+              label: "الفصل 2 - الدرس 2: العذارى والحشرات البالغة"
+            - name: c2-3
+              label: "الفصل 2 - الدرس 3: تركيب جسم الحشرة البالغة"
+            - name: c3-1
+              label: "الفصل 3 - الدرس 1: زراعة البذور"
+            - name: c3-2
+              label: "الفصل 3 - الدرس 2: بعد الإنبات"
+            - name: c3-3
+              label: "الفصل 3 - الدرس 3: الأزهار والثمار"
+            - name: c3-4
+              label: "الفصل 3 - الدرس 4: جسم النبات"
+            - name: c4-1
+              label: "الفصل 4 - الدرس 1: كيف ينتقل ضوء الشمس"
+            - name: c4-2
+              label: "الفصل 4 - الدرس 2: تجميع الضوء"
+            - name: c4-3
+              label: "الفصل 4 - الدرس 3: الظلال والشمس (1)"
+            - name: c4-4
+              label: "الفصل 4 - الدرس 4: الظلال والشمس (2)"
+            - name: c4-5
+              label: "الفصل 4 - الدرس 5: الشمس والظل"
+            - name: c5-1
+              label: "الفصل 5 - الدرس 1: كيف يصدر الصوت"
+            - name: c5-2
+              label: "الفصل 5 - الدرس 2: شدة الصوت والاهتزاز"
+            - name: c5-3
+              label: "الفصل 5 - الدرس 3: كيف ينتقل الصوت"
+            - name: c6-1
+              label: "الفصل 6 - الدرس 1: سيارات تعمل بالرياح"
+            - name: c6-2
+              label: "الفصل 6 - الدرس 2: حجم الشراع"
+            - name: c7-1
+              label: "الفصل 7 - الدرس 1: السيارات التى تعمل بقوة المطاط"
+            - name: c7-2
+              label: "الفصل 7 - الدرس 2: قوة الأشرطة المطاطية"
+            - name: c8-1
+              label: "الفصل 8 - الدرس 1: العلاقة بين اليابسة والماء"
+            - name: c8-2
+              label: "الفصل 8 - الدرس 2: نقل التماثيل الحجرية الضخمة"
+      - name: title
+        label: "اسم الزر (مثال: ورقة عمل)"
+        type: string
+        required: true
+      - name: file
+        label: الملف
+        type: file
+        required: true
+        options:
+          media: files
