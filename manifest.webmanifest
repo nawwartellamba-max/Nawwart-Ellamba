@@ -1,0 +1,27 @@
+{
+ "id": "./",
+ "name": "نوّرت اللمبة - العلوم",
+ "short_name": "نوّرت اللمبة",
+ "description": "موقع العلوم التفاعلي بالعربي والإنجليزي",
+ "lang": "ar",
+ "dir": "rtl",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#fffdf8",
+ "theme_color": "#19b5a5",
+ "icons": [
+  {
+   "src": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22512%22%20height=%22512%22%20viewBox=%220%200%20512%20512%22%3E%3Crect%20width=%22512%22%20height=%22512%22%20fill=%22%2319b5a5%22/%3E%3Ccircle%20cx=%22256%22%20cy=%22256%22%20r=%22170%22%20fill=%22%23fff%22/%3E%3Cg%20transform=%22translate(116%20112)%20scale(4.4)%22%3E%3Ccircle%20cx=%2232%22%20cy=%2226%22%20r=%2217%22%20fill=%22%23ffc83d%22%20stroke=%22%23251f21%22%20stroke-width=%223%22/%3E%3Cpath%20d=%22M24%2026%20q8%20-12%2016%200%22%20stroke=%22%23fff%22%20stroke-width=%223%22%20fill=%22none%22%20stroke-linecap=%22round%22%20opacity=%22.8%22/%3E%3Crect%20x=%2224%22%20y=%2243%22%20width=%2216%22%20height=%229%22%20rx=%223%22%20fill=%22%2319b5a5%22%20stroke=%22%23251f21%22%20stroke-width=%223%22/%3E%3Crect%20x=%2227%22%20y=%2253%22%20width=%2210%22%20height=%226%22%20rx=%223%22%20fill=%22%23251f21%22/%3E%3C/g%3E%3C/svg%3E",
+   "sizes": "any",
+   "type": "image/svg+xml",
+   "purpose": "any"
+  },
+  {
+   "src": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22512%22%20height=%22512%22%20viewBox=%220%200%20512%20512%22%3E%3Crect%20width=%22512%22%20height=%22512%22%20fill=%22%2319b5a5%22/%3E%3Ccircle%20cx=%22256%22%20cy=%22256%22%20r=%22170%22%20fill=%22%23fff%22/%3E%3Cg%20transform=%22translate(116%20112)%20scale(4.4)%22%3E%3Ccircle%20cx=%2232%22%20cy=%2226%22%20r=%2217%22%20fill=%22%23ffc83d%22%20stroke=%22%23251f21%22%20stroke-width=%223%22/%3E%3Cpath%20d=%22M24%2026%20q8%20-12%2016%200%22%20stroke=%22%23fff%22%20stroke-width=%223%22%20fill=%22none%22%20stroke-linecap=%22round%22%20opacity=%22.8%22/%3E%3Crect%20x=%2224%22%20y=%2243%22%20width=%2216%22%20height=%229%22%20rx=%223%22%20fill=%22%2319b5a5%22%20stroke=%22%23251f21%22%20stroke-width=%223%22/%3E%3Crect%20x=%2227%22%20y=%2253%22%20width=%2210%22%20height=%226%22%20rx=%223%22%20fill=%22%23251f21%22/%3E%3C/g%3E%3C/svg%3E",
+   "sizes": "any",
+   "type": "image/svg+xml",
+   "purpose": "maskable"
+  }
+ ]
+}
